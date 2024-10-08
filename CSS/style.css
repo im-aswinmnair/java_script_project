@@ -1,0 +1,132 @@
+* {
+    font-family: DM Sans;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+body{
+    margin: 0%;
+    background: #F4F7FE !important;
+    
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0% !important;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar {
+    background: linear-gradient(149.96deg, #301F81 12.51%, #0F0441 89.53%);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sidebar ul {
+    list-style: none;
+
+}
+.sidebar_header::after{
+    content: "";
+    display: flex;
+    border: 1px solid #ffffff2b
+
+}
+.sidebar ul a:hover{
+    color: #ffffff;
+    background-color: #FFFFFF21;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+    color: #FFFFFFB2;
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center ;
+  
+  
+}
+.sidebar ul h5{
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: -0.02em;
+margin: 0%;
+
+
+}
+
+.sidebar h3 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 300;
+    font-family: Poppins;
+    font-size: 23px;
+    line-height: 28.75px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    left: 15px
+}
+
+.footer h6 {
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.dashboard{
+    width: 100%;
+}
+ .heading h5{  
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+color: #707EAE;
+ }
+ .heading h2{
+    color:#2B3674;
+font-size: 34px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.02em;
+ }
+ .search_box{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 14px 17px 40px 4px #7090B014;
+
+ }
+ .search_space{
+    background-color: #F4F7FE;
+    border-radius: 30px;
+    padding: 10px;
+    
+ }
+ .search_box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 0%;
+ }
+
+ .profile img{
+    border-radius: 20px;
+ }
+ .search_notific{
+    color: #A3AED0;
+    
+ }
